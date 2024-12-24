@@ -94,15 +94,9 @@ source ~/.zshrc
 ### Install colorls
 
 ```bash
-sudo gem install colorls
-```
-
-maybe you'll get some gem errors, you should fix it
-```bash
-sudo apt install ruby-full
+sudo apt install exa
 ```
 Update `~/.zshrc`:
-
 ```bash
 if [ -x "$(command -v exa)" ]; then
     alias ls="exa"
